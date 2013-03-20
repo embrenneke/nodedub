@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= value
+  p= description 
+
+  if value == 'NOPE'
+    p Register your email below to be notified when WWDC is announced.
+    form(name="registration", action="/add", method="get")
+      input(type="text", name="email", size="35")
+      br
+      input(type="submit", value="Submit")
+
+  if value == 'ALMOST'
+    a(href="https://developer.apple.com/wwdc") WWDC at Apple
+
+  br
+  br
+  a(href="/privacy") privacy policy

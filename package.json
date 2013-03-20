@@ -1,0 +1,20 @@
+{
+  "name": "nodedub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "*",
+    "pg": "0.6.15",
+    "express-validator": "0.3.2",
+    "nodemailer": "0.3.44",
+    "mailgun": "0.4.2"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  }
+}

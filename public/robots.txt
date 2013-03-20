@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /add
+Disallow: /confirm
+Disallow: /trigger
