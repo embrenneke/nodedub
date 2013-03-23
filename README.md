@@ -10,12 +10,14 @@ A quick app to:
 
 2) Take email addresses as input, confirm, and store them in a database
 
-3) Be able to send out a lot of emails in a very short time, using Mailgun, when commanded to
+3) Send out a lot of emails in a very short time, using Mailgun, when commanded to
 
 4) Run a worker in the background checking for changes to the WWDC registration page, and if any changes are seen notify
 
 Things left to do
 =================
 
+* Unit tests
 * ???
 * Profit!
+
