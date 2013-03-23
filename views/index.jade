@@ -7,7 +7,7 @@ block content
   if value == 'NOPE'
     p Register your email below to be notified when WWDC is announced.
     form(name="registration", action="/add", method="get")
-      input(type="text", name="email", size="35")
+      input(type="text", name="email", size="35", maxlength="320")
       br
       input(type="submit", value="Submit")
 
