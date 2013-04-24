@@ -6,11 +6,11 @@ var emailer = require('./emailer.js'),
 
 var DUBSTATES = {
   NO : {name: "NOPE", description: "Tickets are not on sale yet." },
-  MAYBE : {name: "ALMOST", description: "Tickets have gone on sale. Go!"},
+  MAYBE : {name: "ALMOST", description: "Tickets have (almost) gone on sale. Go!"},
   YES : {name: "YEP", description: "You are too late, they sold out." }
 };
 
-var currentState = DUBSTATES.NO;
+var currentState = DUBSTATES.MAYBE;
 
 var trigger = function(action) {
   var acted = false;
