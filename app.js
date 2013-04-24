@@ -30,16 +30,16 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/privacy', routes.privacy);
-app.get('/add', routes.add);
-app.get('/confirm', routes.confirmed);
+//app.get('/add', routes.add);
+//app.get('/confirm', routes.confirmed);
 app.get('/trigger', routes.trigger);
 
-apple.checkYear();
-pg.cullUnconfirmedEmails();
+//apple.checkYear();
+//pg.cullUnconfirmedEmails();
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
 
-setInterval(apple.checkYear, 300000);
-setInterval(pg.cullUnconfirmedEmails, 3600000);
+//setInterval(apple.checkYear, 300000);
+//setInterval(pg.cullUnconfirmedEmails, 3600000);
