@@ -14,7 +14,5 @@ A quick app to:
 Things left to do
 =================
 
-* Unit tests
-* ???
-* Profit!
+* Find a way to get a ticket
 
