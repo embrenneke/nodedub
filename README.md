@@ -3,7 +3,7 @@ Nodedub Overview
 
 A quick app to:
 
-1. Show a page with 3 states, "WWDC 2013 is":
+1. Show a page with 3 states, "WWDC 2014 is":
     * Not sold out yet, registration isn't open
     * Not sold out yet, registration is open
     * Sold out
