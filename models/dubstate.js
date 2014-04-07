@@ -10,7 +10,7 @@ var DUBSTATES = {
   YES : {name: "YEP", description: "You are too late, they sold out." }
 };
 
-var currentState = DUBSTATES.NO;
+var currentState = DUBSTATES.YES;
 
 var trigger = function(action) {
   var acted = false;
@@ -33,7 +33,9 @@ var trigger = function(action) {
       acted = true;
     }
   }
-  if (acted) exports.currentState = currentState;
+  if (acted) {
+    exports.currentState = currentState;
+  }
   return acted;
 };
 
