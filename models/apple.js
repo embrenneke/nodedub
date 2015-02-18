@@ -12,8 +12,8 @@ var checkYear = function () {
       wwdcContent = wwdcContent.concat(d);
     });
     res.on('end', function() {
-      var oldyear = wwdcContent.match(/2013/g);
-      var newyear = wwdcContent.match(/2014/g);
+      var oldyear = wwdcContent.match(/2014/g);
+      var newyear = wwdcContent.match(/2015/g);
       if (oldyear) {
         oldyear = oldyear.length;
       } else {
