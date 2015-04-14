@@ -10,7 +10,7 @@ var DUBSTATES = {
   YES : {name: "YEP", description: "You are too late, they sold out." }
 };
 
-var currentState = DUBSTATES.NO;
+var currentState = DUBSTATES.MAYBE;
 
 var trigger = function(action) {
   var acted = false;
